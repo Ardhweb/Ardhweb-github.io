@@ -1,0 +1,308 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.container{
+    margin: 0 2px 0 2px;
+    padding: 4px 4px 4px 4px;
+}
+
+
+.row{
+    display: grid;
+    grid-row: auto;
+    gap: 10px;
+    
+}
+
+.col{
+    margin: 2px;
+    padding: 2px;
+
+}
+
+.c2{
+    grid-template-columns: auto auto;
+}
+
+
+
+.navbar{
+    list-style-type: none;
+    text-align: justify;
+    /* display: block; */
+    
+    
+}
+
+.nav-link  {
+   
+    display: inline;
+
+   
+}
+
+.nav-link a{
+    color: rgb(231, 231, 231);
+    text-align: left;
+    text-decoration: none;
+    margin:0 2px  0 2px;
+    padding: 0 4px 0 4px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.nav-link a:hover{
+    color: aquamarine;
+}
+
+
+
+
+
+
+
+.bg-black{
+    background-color: black;
+}
+
+
+
+.bg-redoranage{
+    background-color: rgb(255, 126, 75);
+}
+
+.my-head{
+    -webkit-line-clamp: 2; /* number of lines to show */
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(250, 250, 250);
+    font-weight: bolder;
+}
+
+.my-subtxt{
+    font-family:'Segoe UI'; 
+    font-weight:bold; 
+    color: rgb(153, 154, 155);
+
+    
+}
+
+.my-subtxt p{
+    margin: 12px 0 12px 0;
+    line-height: 25px;
+    text-transform: lowercase;
+    
+}
+.my-subtxt p::first-letter{
+    color:rgb(245, 189, 37);
+    text-transform: uppercase;
+    font-size: 1.3pc;
+    
+}
+
+.mt-10{
+    margin-top: 10pc;
+}
+
+.mb-10{
+    margin-bottom: 10pc;
+}
+
+.ml-10{
+    margin-left:10pc
+}
+
+.mt-15{
+    margin-top: 15pc;
+}
+
+.mb-15{
+    margin-bottom: 15pc;
+}
+
+.ml-15{
+    margin-left:15pc
+}
+
+/*Special-Marign*/
+.mb-85{
+    margin-bottom: 85px;
+}
+
+.ml-15x{
+    margin-left: 15px;
+}
+
+/*Special-Marign-End*/
+
+
+
+/*flex*/
+
+.box-flex{
+    display: flex;
+    /* background-color: dodgerblue; */
+    align-items: center;
+    margin: 10px 12px 15px 12px;
+    justify-content: center;
+    flex-basis:  33.333333%;
+}
+
+.flex-item{
+    /* background-color: aliceblue; */
+    margin: 10px ;
+    padding: 20px;
+    font-size: 12px;
+    align-self: center;
+}
+
+
+/*border*/
+.border-capsule{
+    border-radius: 25px;
+    border: 1px solid;
+    padding: 2px;
+    margin: 1px;
+
+}
+
+
+/*button*/
+
+.btn-semi-round-default{
+    border-radius: 12px /*25px*/;
+    border: 2px solid rgb(240, 239, 239);
+    padding: 12px 16px 12px 16px;
+    margin: 3px;
+    background-color: rgb(252, 252, 252);
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(78, 75, 75);
+    text-align: center;
+
+}
+
+.btn-semi-round-default:hover{
+    background-color: rgb(20, 24, 24);
+    border: 2px solid  rgb(20, 24, 24);
+    color: rgb(245, 189, 37);
+}
+
+
+
+.box-contain{
+    display: block;
+    justify-content: center;
+    margin: 14px;
+    padding: 12px;
+}
+
+.box-work-content{
+    display: flex;
+    margin: 0 30px 0 30px;
+    justify-content: center;
+}
+
+.box-work-content span{
+     float: inline-end;
+    justify-content: center;
+}
+
+
+
+.card-box{
+    margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px 0px;
+  background-color: aliceblue;
+
+}
+
+.card-body{
+    font-size: 14px;
+
+}
+
+.card-img{
+    
+    height: 160px;
+    width: 260px;
+    /* margin: 0 14px 0 14px; */
+}
+
+
+.card-box:hover{
+    opacity: 0.7;
+}
+
+.tut:hover{
+    opacity: 1.3;
+   
+}
+
+.tutframe{
+    width:280;
+    height:215;
+}
+
+
+.contact-box{
+     background-image: url('/media/src/bg-contact.png')  ; 
+     height: auto;
+     background-size: cover, contain;
+     background-repeat: no-repeat;
+     background-clip: content-box;
+     background-position: center;
+     margin-bottom: 5px;
+}
+.contact-form{
+    /* background-image: url('/media/hanson-lu-sq5P00L7lXc-unsplash.jpg') ; */
+    margin: 126px 12px 16px 12px;
+    /* background-size: cover , contain;
+    background-repeat: no-repeat;
+    background-clip: content-box; */
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+
+}
+
+
+.contact-input{
+    display: inline-block;
+    flex-flow: column;
+    width: 390px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom:5.5pc;
+    padding: 14px 12px 14px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    /* border-top-style: hidden; */
+    border-bottom: 2px solid rgb(160, 160, 160);
+    background-color: transparent;
+
+}
+
+.contact-input::placeholder{
+    color: rgb(54, 52, 52);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-input:focus{
+    outline: none;
+    
+}
+
+.contact-input:focus::placeholder{
+    color: transparent;
+}
