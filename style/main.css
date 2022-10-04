@@ -252,7 +252,7 @@ body{
 
 
 .contact-box{
-     background-image: url('/media/src/bg-contact.png')  ; 
+     background-image: url('justcoder181/media/bg-contact.png')  ; 
      height: auto;
      background-size: cover, contain;
      background-repeat: no-repeat;
@@ -261,7 +261,7 @@ body{
      margin-bottom: 5px;
 }
 .contact-form{
-    /* background-image: url('/media/hanson-lu-sq5P00L7lXc-unsplash.jpg') ; */
+    /* background-image: url('media/hanson-lu-sq5P00L7lXc-unsplash.jpg') ; */
     margin: 126px 12px 16px 12px;
     /* background-size: cover , contain;
     background-repeat: no-repeat;
