@@ -314,8 +314,8 @@ body{
 
 
 @media only screen and (max-width: 400px) {
-    .pr-mobiviews{
-    display:table;
+    .box-flex{
+    flex-direction"column;
     }
 
  }
