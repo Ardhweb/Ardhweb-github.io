@@ -311,7 +311,14 @@ body{
 /*mobile-view*/
 
 
-@media only screen and (min-width: 300px and max-width:700px) {
+@media only screen and (min-width: 300px) {
+    .pr-mobiviews{
+    display:table;
+    }
+
+ }
+
+@media only screen and (max-width: 700px) {
     .pr-mobiviews{
     display:table;
     }
